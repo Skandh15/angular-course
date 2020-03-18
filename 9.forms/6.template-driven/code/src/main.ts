@@ -126,8 +126,6 @@ class Signup {
 	        class="btn btn-primary"
 	        [disabled]="f.invalid">Submit
 	</button>
-
-	<pre>{{f.value | json}}</pre>
 </form> 
 </div> 
 `
